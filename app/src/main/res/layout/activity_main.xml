@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎使用广东电信每天免费1G流量小程序~,请点击按钮,进行发送短信的操作"
+        android:textSize="30dp"
+         />
+
+    <Button
+        android:id="@+id/btnSendMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:height="@android:dimen/app_icon_size"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="400dp"
+        android:textSize="30dp"
+        android:text="发送短信"
+        />
+
+</LinearLayout>
